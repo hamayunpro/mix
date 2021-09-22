@@ -289,12 +289,12 @@ def super():
 	print '\x1b[1;92m[1] \x1b[1;33;40m══Hack From Friend List' 
         print '\x1b[1;92m[2] \x1b[1;33;40m══Hack From Public ID'
 	print '\x1b[1;92m[3] \x1b[1;33;40m══Hack Bruteforce'
-	'\x1b[1;92m[4] \x1b[1;33;40m══Hack From File'
-	
-	[1;33;40m══Back'
+	print '\x1b[1;92m[4] \x1b[1;33;40m══Hack From File' 
+	print '\x1b[1;92m[5] \x1b[1;33;40m══Back'
 	pilih_super()
 
 def pilih_super():
+
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
 		print "\033[1;97mFill in correctly"
