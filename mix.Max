@@ -271,38 +271,16 @@ def menu():
     print ' \x1b[1;93m Active token: \x1b[1;91m' + tok
 
 os.system("clear")
-	print logo
-	print "   \033[1;36;40m    ╔═════════════════════════════════╗"
-	print "   \033[1;36;40m    ║\033[1;32;40m[*] Name\033[1;32;40m: "+nama+"  	   \033[1;36;40m║"                               
-	print "   \033[1;36;40m    ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
-	print "   \033[1;36;40m    ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
-	print "   \033[1;36;40m    ╚═════════════════════════════════╝"
-	print "\033[1;32;40m[1] \033[1;33;40m══Start Cloning"	
-	print "\033[1;32;40m[2] \033[1;33;40m══Update badshah"																														
-	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
-	pilih()
+	print ' ------------------------------------------ '
+    print '\x1b[1;92m[1] Crack From Friendlist'
+    print '\x1b[1;92m[2] Crack From Public'
+    print '\x1b[1;92m[3] BruteForce Attack
+    print '\x1b[1;92m[4] Clone From File'
+    print '\x1b[1;92m[5] '
 
-def pilih():
-	unikers = raw_input("\n\033[1;31;40m>>> \033[1;35;40m")
-	if unikers =="":
-		print "\033[1;97mFill in correctly"
-		pilih()
-	elif unikers =="1":
-		super()
-	elif unikers =="2":
-		os.system('clear')
-		print logo
-		print " \033[1;36;40m●════════════════════════◄SHER BADSHAH►════════════════════════●\n"
-		os.system('git pull origin master')
-		raw_input('\n\033[1;97m[ \033[1;97mBack \033[1;97m]')
-		menu()
-	elif unikers =="0":
-		jalan('Token Removed')
-		os.system('rm -rf login.txt')
-		keluar()
-	else:
-		print "\033[1;97mFill in correctly"
-		pilih()
+    menu_s()
+
+
 
 def super():
 	global toket
