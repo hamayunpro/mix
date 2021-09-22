@@ -271,7 +271,6 @@ def menu():
     print ' \x1b[1;93m Active token: \x1b[1;91m' + tok
 
 os.system("clear")
-	print ' ------------------------------------------ '
     print '\x1b[1;92m[1] Crack From Friendlist'
     print '\x1b[1;92m[2] Crack From Public'
     print '\x1b[1;92m[3] BruteForce Attack
